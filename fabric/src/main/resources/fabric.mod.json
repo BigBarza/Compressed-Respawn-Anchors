@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "compressed_respawn_anchors",
+  "version": "${version}",
+  "name": "Compressed Respawn Anchors",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/compressed_respawn_anchors/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.pression.compressedrespawnanchors.fabric.CRAFabric"
+    ],
+    "client": [
+      "com.pression.compressedrespawnanchors.fabric.client.CRAFabricClient"
+    ]
+  },
+  "mixins": [
+    "compressed_respawn_anchors.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.19.2",
+    "java": ">=17",
+    "architectury": ">=6.6.92",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
