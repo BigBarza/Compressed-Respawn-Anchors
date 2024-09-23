@@ -1,9 +1,7 @@
 package com.pression.compressedrespawnanchors.forge;
 
 import dev.architectury.platform.forge.EventBuses;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 import com.pression.compressedrespawnanchors.CompressedRespawnAnchors;
