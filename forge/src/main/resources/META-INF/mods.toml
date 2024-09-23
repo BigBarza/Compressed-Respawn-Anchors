@@ -30,6 +30,6 @@ side = "BOTH"
 [[dependencies.compressed_respawn_anchors]]
 modId = "architectury"
 mandatory = true
-versionRange = "[6.6.92,)"
+versionRange = "[6.5.85,)"
 ordering = "AFTER"
 side = "BOTH"

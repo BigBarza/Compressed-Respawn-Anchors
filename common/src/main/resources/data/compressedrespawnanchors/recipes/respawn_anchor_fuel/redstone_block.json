@@ -1,0 +1,8 @@
+{
+  "type": "compressed_respawn_anchors:respawn_anchor_fuel",
+  "input":{
+    "item": "minecraft:redstone_block"
+  },
+  "charges": 2,
+  "overload": "explode"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "compressed_respawn_anchors:respawn_anchor_fuel",
+  "input":{
+    "item": "minecraft:diamond"
+  },
+  "charges": 4,
+  "overload": "drop_excess",
+  "dropped_item": {
+    "item": "minecraft:gold_ingot",
+    "count": 2
+  }
+}

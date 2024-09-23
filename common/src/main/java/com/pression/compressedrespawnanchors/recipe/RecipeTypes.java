@@ -13,7 +13,7 @@ public class RecipeTypes {
     public static final DeferredRegister<RecipeType<?>> RECIPE_TYPES = DeferredRegister.create(CompressedRespawnAnchors.MOD_ID, Registry.RECIPE_TYPE_REGISTRY);
     public static final DeferredRegister<RecipeSerializer<?>> RECIPE_SERIALIZERS = DeferredRegister.create(CompressedRespawnAnchors.MOD_ID, Registry.RECIPE_SERIALIZER_REGISTRY);
 
-        public static final RegistrySupplier<RecipeType<RespawnFuelRecipe>> RESPAWN_FUEç_RECIPE_TYPE = RECIPE_TYPES.register("respawn_anchor_fuel", () -> new RecipeType<RespawnFuelRecipe>() {
+        public static final RegistrySupplier<RecipeType<RespawnFuelRecipe>> RESPAWN_FUEL_RECIPE_TYPE = RECIPE_TYPES.register("respawn_anchor_fuel", () -> new RecipeType<RespawnFuelRecipe>() {
         @Override
         public String toString() {
             return new ResourceLocation(CompressedRespawnAnchors.MOD_ID, "respawn_anchor_fuel").toString();
